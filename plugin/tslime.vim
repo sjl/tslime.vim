@@ -120,6 +120,6 @@ endfunction
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-execute "vnoremap" . g:tslime_visual_mapping . ' "ry:call Send_to_Tmux(@r)<CR>'
-execute "nnoremap" . g:tslime_normal_mapping . ' vip"ry:call Send_to_Tmux(@r)<CR>'
+execute "vnoremap" . g:tslime_visual_mapping . ' "ry:call SendToTmux(@r)<CR>'
+execute "nnoremap" . g:tslime_normal_mapping . ' vip"ry:call SendToTmux(@r)<CR>'
 execute "nnoremap" . g:tslime_vars_mapping   . ' :call <SID>Tmux_Vars()<CR>'
